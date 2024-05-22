@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  position: relative;
+}
+@media screen and (max-width:599px) {
+  body {
+    background-color: black;
+  }
+  
+  header {
+    display: flex;
+    padding: .5rem 1rem;
+  }
+  .header-logo {
+    width: 6rem;
+  }
+  .container {
+    padding: 1.5rem;
+    color: white;
+  }
+  .page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .user-name {
+    background-color: rgb(22, 22, 22);
+    padding: 1.2rem 1rem;
+    border: 1px solid gray;
+    width: 100%;
+ 
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  .user-name::placeholder {
+    color: rgb(189, 188, 188);
+    font-size: 1rem;
+  }
+  .signin-button {
+    background-color: red;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .txt {
+    margin: 1rem 0;
+    text-align: center;
+    color: rgb(189, 188, 188);;
+  }
+  .signin-code-button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    cursor: pointer;
+  }
+  .link-contain {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: underline;
+    color: rgb(179, 176, 176);
+  }
+  .check-box {
+    background-color: gray;
+    margin-right: .5rem;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .main {
+    background: url(background.jpg) no-repeat;
+  }
+  .page-container {
+    backdrop-filter: brightness(50%);
+  }
+  header {
+    display: flex;
+    margin-left: 8rem;
+    margin-top: -1rem;
+  }
+  .header-logo {
+    width: 12rem;
+  }
+  .container {
+    max-width: 35vw;
+    padding: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: black;
+    opacity: .8;
+  }
+  .page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .user-name {
+    background-color: rgb(22, 22, 22);
+    padding: 1.2rem 1rem;
+    border: 1px solid gray;
+    width: 100%;
+ 
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  .user-name::placeholder {
+    color: rgb(189, 188, 188);
+    font-size: 1rem;
+  }
+  .signin-button {
+    background-color: red;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .txt {
+    margin: 1rem 0;
+    text-align: center;
+    color: rgb(189, 188, 188);;
+  }
+  .signin-code-button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    cursor: pointer;
+  }
+  .link-contain {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .link {  
+    color: white;
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: underline;
+    color: rgb(179, 176, 176);
+  }
+  .check-box {
+    background-color: gray;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+  }
+  .new-signup {
+    color: rgb(167, 165, 165);
+  }
+  .new-signup-link {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+  }
+  .new-signup-link:hover ,.footer a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    margin-top: 2rem;
+    color: rgb(167, 165, 165);
+    font-size: 14px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: hsl(216, 100%, 50%);
+    opacity: 1;
+  }
+  .anchor {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  }
